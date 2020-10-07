@@ -1,0 +1,25 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Primeiro Blog",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\"echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1\"",
+    "start": "node app.js"
+  },
+  "author": "Leandro Augusto",
+  "license": "ISC"
+}
